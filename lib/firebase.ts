@@ -3,13 +3,13 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyD6R_0EVrV09k9OLhvccYl2rQho-vz8z7k",
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
   authDomain: "luxtra-ead96.firebaseapp.com",
   projectId: "luxtra-ead96",
   storageBucket: "luxtra-ead96.firebasestorage.app",
   messagingSenderId: "521836196224",
-  appId: "1:521836196224:web:a320f12c0456f0726dd165",
-  measurementId: "G-ZC2G48E8L5"
+  appId: "1:521836196224:web:7c3a5607f25cd49a6dd165",
+  measurementId: "G-KY1W9GK3YT"
 };
 
 const app = initializeApp(firebaseConfig);
